@@ -1,0 +1,12 @@
+/* Apply vertical borders to all columns */
+th, td {
+    text-align: center;
+  padding: 12px;
+  border-right: 2px solid #ddd; /* Creates the column line */
+}
+
+/* Optional: Remove the outer border from the very last column */
+th:last-child, 
+td:last-child {
+  border-right: none;
+}
